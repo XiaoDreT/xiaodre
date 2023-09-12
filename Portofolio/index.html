@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portofolio Andre</title>
+</head>
+<body>
+    <nav class="nav">
+      <div class="container nav_container">
+        <a href="#" class="nav_logo"><b>XIAODRE</b></a>
+        <ul class="nav_list desktop_nav">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+        </ul>
+        <div class="nav_burger">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </div>
+      </div>
+      <ul class="mobile_nav_list">
+        <li class="mobile_nav_item">
+          <a href="#home" class="mobile_nav_link">Home</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#services" class="mobile_nav_link">Services</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#about" class="mobile_nav_link">About</a>
+        </li>
+      </ul>
+    </nav>    
+    <!-- Header -->
+    <header class="header" id="home">
+        <div class="container header_container">
+          <div class="header_container_wrapper">
+            <div class="header_text">
+              <h1 class="header_title">
+                Welcome To <span>小Dre </span>Website
+              </h1>
+              <p class="header_text">
+                Website Portofolio Andre
+              </p>
+              <a href="#" class="header_btn">Register</a>
+            </div>
+            <div class="header_img">
+              <img src="./image/img-header.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Main -->
+      <main>
+        <article id="services" class="card">
+          <section class="section">
+            <div class="container services_container">
+              <div class="section_header">
+                <h2 class="section_title">
+                  Services
+                </h2>
+                <p class="section_text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+              <div class="services">
+                <div class="service">
+                  <span class="icon"
+                    ><img src="./image/logo/frontend.png" alt=""
+                  /></span>
+                  <h3 class="service_title">Front-End Development</h3>
+                  <p class="service_text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi neque optio aliquam voluptatum voluptate.
+                  </p>
+                </div>
+                <div class="service">
+                  <span class="icon"
+                    ><img src="./image/logo/backend.png" alt=""
+                  /></span>
+                  <h3 class="service_title">Back-End Development</h3>
+                  <p class="service_text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi neque optio aliquam voluptatum voluptate.
+                  </p>
+                </div>
+                <div class="service">
+                  <span class="icon"
+                    ><img src="./image/logo/design.png" alt=""
+                  /></span>
+                  <h3 class="service_title">UI/UX Design</h3>
+                  <p class="service_text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi neque optio aliquam voluptatum voluptate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+        <!-- aside -->
+        <aside>
+          <article class="profile card" id="about">
+            <header>
+              <h2>Andre</h2>
+              <figure>
+                <img src="./image/andre.png" />
+              </figure>
+            </header>
+            <section>
+              <table>
+                <tr>
+                  <th>Email: </th>
+                  <td>dretham123@gmail.com</td>
+                </tr>
+                <tr>
+                  <th>Address: </th>
+                  <td>Indonesia, West Java, Karawang</td>
+                </tr>
+                <tr>
+                  <th>About: </th>
+                  <td>I'm the Full-Stack Developer <br>that likes to learn and grow</td>
+                </tr>
+                <tr>
+                  <th>Contact: </th>
+                  <td>081219034353</td>
+                </tr>
+                
+              </table>
+            </section>
+          </article>
+        </aside>
+      </main>
+      <footer class="footer">
+        <div class="cotainer footer_container">
+          <div class="footer_items">
+            <a href="#" class="footer_logo">XiaoDre</a>
+            <p class="footer_copy">
+              Copyright © 2023 Andre. All rights reserved
+            </p>
+            <div class="footer_icons">
+              <img src="./image/icon/instagram.png" alt="" class="footer_icon" />
+              <img src="./image/icon/twitter.png" alt="" class="footer_icon" />
+              <img src="./image/icon/youtube.png" alt="" class="footer_icon" />
+            </div>
+          </div>
+        </div>
+        <script src="./js/app.js"></script>
+      </footer>
+</body>
+</html>
